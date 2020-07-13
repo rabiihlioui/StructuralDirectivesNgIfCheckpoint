@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { StructDirNgifComponent } from './struct-dir-ngif/struct-dir-ngif.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StructDirNgifComponent
   ],
   imports: [
     BrowserModule,

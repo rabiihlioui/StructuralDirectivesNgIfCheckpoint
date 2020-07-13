@@ -1,0 +1,11 @@
+<form class="form-inline">
+  <div class="form-group mb-2">
+    Click on the button
+  </div>
+  <div class="form-group mx-sm-3 mb-2">
+    <button type="button" class="btn btn-primary" (click)="hideText()">{{dispHideBtn}}</button>
+  </div>
+  <p *ngIf="display">
+    This text is going to be hidden if you click on "Click to Hide" button or displayed if you click on "Click to Display"
+  </p>
+</form>
